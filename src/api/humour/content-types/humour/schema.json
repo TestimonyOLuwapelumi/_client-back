@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "collectionName": "humours",
+  "info": {
+    "singularName": "humour",
+    "pluralName": "humours",
+    "displayName": "humour"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "humourTitle": {
+      "type": "string"
+    },
+    "humourDesc": {
+      "type": "string"
+    },
+    "humourContent": {
+      "type": "richtext"
+    },
+    "humourImg": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "authorNameh": {
+      "type": "string"
+    },
+    "authorDesch": {
+      "type": "string"
+    },
+    "authorImgh": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

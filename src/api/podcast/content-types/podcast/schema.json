@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "podcasts",
+  "info": {
+    "singularName": "podcast",
+    "pluralName": "podcasts",
+    "displayName": "podcast"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "podcastTitle": {
+      "type": "string"
+    },
+    "podcastYoutube": {
+      "type": "richtext"
+    },
+    "podcastContent": {
+      "type": "richtext"
+    },
+    "podcastImg": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

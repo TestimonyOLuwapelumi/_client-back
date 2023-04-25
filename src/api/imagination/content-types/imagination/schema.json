@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "collectionName": "imaginations",
+  "info": {
+    "singularName": "imagination",
+    "pluralName": "imaginations",
+    "displayName": "imagination"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "imaginationTitle": {
+      "type": "string"
+    },
+    "imaginationDesc": {
+      "type": "string"
+    },
+    "imaginationContent": {
+      "type": "richtext"
+    },
+    "imaginationImg": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "authorNamei": {
+      "type": "string"
+    },
+    "authorDesci": {
+      "type": "string"
+    },
+    "authorImgi": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
