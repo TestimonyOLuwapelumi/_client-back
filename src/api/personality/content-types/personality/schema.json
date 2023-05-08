@@ -4,7 +4,8 @@
   "info": {
     "singularName": "personality",
     "pluralName": "personalities",
-    "displayName": "personality"
+    "displayName": "personality",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -21,14 +22,15 @@
       "type": "richtext"
     },
     "personalityImg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     },
     "authorNamep": {
       "type": "string"
@@ -37,14 +39,15 @@
       "type": "string"
     },
     "authorImgp": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     }
   }
 }
